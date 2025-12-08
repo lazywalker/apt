@@ -65,15 +65,60 @@ Description: Rusty Generic Colouriser
  count/replace features, and portable packaging.
 
 Package: uconsole-4g
-Version: 0.21
-Maintainer: uconsole-4g <rex@linux.com>
+Version: 0.21.1
+Maintainer: lazywalker <lazywalkerz@gmail.com>
 Architecture: arm64
 Priority: optional
 Section: utils
-Filename: pool/main/u/uconsole-4g/uconsole-4g_0.21_arm64.deb
-Size: 1396
-SHA256: fd20189f98b44bd2cc2f30e6a71d35d537d67bd224b48e3ae05b6fd9145f3a39
-SHA1: 025673c4d44bfb201c3c90328954fd552aff47fa
-MD5sum: eea5b9fd6819474004f41e11aa154e68
+Filename: pool/main/u/uconsole-4g/uconsole-4g_0.21.1_arm64.deb
+Size: 1412
+SHA256: 9a14f142cb06f268dc12f22929840f24a43faf8545b6ae44bd27c2d9fb4043ea
+SHA1: 6b4031a4a5b9c6524255f2fefc15f1b9ab91d422
+MD5sum: 4432d56ae6fa6c486b03da7b44ce4694
 Description: uConsole 4G control script for raspberry pi cm4
+
+Package: uconsole-audio
+Version: 1.2
+Maintainer: uconsole-audio <lazywalkerz@gmail.com>
+Architecture: all
+Depends: python3
+Replaces: clockworkpi-audio-shutdown, clockworkpi-audio-patch
+Priority: required
+Section: sound
+Filename: pool/main/u/uconsole-audio/uconsole-audio_1.2_all.deb
+Size: 12936
+SHA256: 0785a1a88cda684fb2635c92a1dff5b83d1e54132caac96e2ef9351d19a19415
+SHA1: 26ec86db017e6470801ea1516eaaddea4c15b635
+MD5sum: d72881555cacdbc3d930b822aff18613
+Description: uconsole-audio
+ provides 3.5mm jack and speaker switching and stopping speaker pop on shutdown.
+
+Package: uconsole-backlight
+Version: 1.1
+Maintainer: lazywalker <lazywalkerz@gmail.com>
+Architecture: all
+Priority: required
+Section: utils
+Filename: pool/main/u/uconsole-backlight/uconsole-backlight_1.1_all.deb
+Size: 976
+SHA256: d593967f59f9d7f91145ef7e40bcf3b735cb5de9b3710e7b3eddf93160999f89
+SHA1: 27ec0c3c123e4bb202c1dd3357b61b586ce2c9ac
+MD5sum: 20a884acef61ee82d9040b3a66a9926d
+Description: uconsole-backlight
+ turns the panel backlight on if the driver failed to do so.
+
+Package: uconsole-theme
+Version: 0.1.0
+Maintainer: lazywalker <lazywalkerz@gmail.com>
+Architecture: all
+Replaces: rpd-plym-splash, raspberrypi-ui-mods, piwiz, rpd-common
+Priority: optional
+Section: misc
+Filename: pool/main/u/uconsole-theme/uconsole-theme_0.1.0_all.deb
+Size: 5738852
+SHA256: 5a28f0b8261895999c75e6e6a06beb637fa3e365609082f2b6d844bd75966258
+SHA1: ef735efb1e70b0def7289987a1ecfdc874664cd3
+MD5sum: f8131dca408a92cacc19a7fe57e77474
+Description: uconsole-theme
+ uconsole-theme provides wallpapers and boot splash clcokworkpi theme
 

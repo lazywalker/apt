@@ -32,3 +32,48 @@ Description: Rusty Generic Colouriser
  using grc/grcat-style configuration files. Supports embedded configs, advanced
  count/replace features, and portable packaging.
 
+Package: uconsole-audio
+Version: 1.2
+Maintainer: uconsole-audio <lazywalkerz@gmail.com>
+Architecture: all
+Depends: python3
+Replaces: clockworkpi-audio-shutdown, clockworkpi-audio-patch
+Priority: required
+Section: sound
+Filename: pool/main/u/uconsole-audio/uconsole-audio_1.2_all.deb
+Size: 12936
+SHA256: 0785a1a88cda684fb2635c92a1dff5b83d1e54132caac96e2ef9351d19a19415
+SHA1: 26ec86db017e6470801ea1516eaaddea4c15b635
+MD5sum: d72881555cacdbc3d930b822aff18613
+Description: uconsole-audio
+ provides 3.5mm jack and speaker switching and stopping speaker pop on shutdown.
+
+Package: uconsole-backlight
+Version: 1.1
+Maintainer: lazywalker <lazywalkerz@gmail.com>
+Architecture: all
+Priority: required
+Section: utils
+Filename: pool/main/u/uconsole-backlight/uconsole-backlight_1.1_all.deb
+Size: 976
+SHA256: d593967f59f9d7f91145ef7e40bcf3b735cb5de9b3710e7b3eddf93160999f89
+SHA1: 27ec0c3c123e4bb202c1dd3357b61b586ce2c9ac
+MD5sum: 20a884acef61ee82d9040b3a66a9926d
+Description: uconsole-backlight
+ turns the panel backlight on if the driver failed to do so.
+
+Package: uconsole-theme
+Version: 0.1.0
+Maintainer: lazywalker <lazywalkerz@gmail.com>
+Architecture: all
+Replaces: rpd-plym-splash, raspberrypi-ui-mods, piwiz, rpd-common
+Priority: optional
+Section: misc
+Filename: pool/main/u/uconsole-theme/uconsole-theme_0.1.0_all.deb
+Size: 5738852
+SHA256: 5a28f0b8261895999c75e6e6a06beb637fa3e365609082f2b6d844bd75966258
+SHA1: ef735efb1e70b0def7289987a1ecfdc874664cd3
+MD5sum: f8131dca408a92cacc19a7fe57e77474
+Description: uconsole-theme
+ uconsole-theme provides wallpapers and boot splash clcokworkpi theme
+
