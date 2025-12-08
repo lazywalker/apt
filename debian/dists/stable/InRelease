@@ -4,7 +4,7 @@ Hash: SHA512
 Origin: lazywalker's repo
 Label: my personal packages
 Codename: stable
-Date: Mon, 08 Dec 2025 08:28:46 UTC
+Date: Mon, 08 Dec 2025 10:00:08 UTC
 Architectures: amd64 arm64
 Components: main contrib
 Description: A simple personal APT repository
@@ -12,8 +12,8 @@ MD5Sum:
  d978dbdfc262857fd7f7ae18ff4524df 714 main/binary-amd64/Packages
  90cf6f90c70d12f2d3c79ddd24845b7c 504 main/binary-amd64/Packages.gz
  2cfa364bffc14de2a2ae45ef0fd27878 136 main/binary-amd64/Release
- 5082298fabf47a19bc9887de0ace2b6e 2174 main/binary-arm64/Packages
- 932eb1185986af50764350fb2026d052 998 main/binary-arm64/Packages.gz
+ 537efc43894589405f70ee2286992b7a 2598 main/binary-arm64/Packages
+ bcb5e7b782317b02c6fd930d25bc3660 1155 main/binary-arm64/Packages.gz
  3c9fe8bdab0cdff720dda818aeac0fe0 136 main/binary-arm64/Release
  d41d8cd98f00b204e9800998ecf8427e 0 main/source/Sources
  7029066c27ac6f5ef18d660d5741979a 20 main/source/Sources.gz
@@ -31,8 +31,8 @@ SHA1:
  d77cfa0857fc98445351a260cc805a84091aa6dd 714 main/binary-amd64/Packages
  5161f0318aecbc1af0a8f3436a34d2799daa99d3 504 main/binary-amd64/Packages.gz
  b80b7ff189815fb5d97d27d41cdf81bd206f1112 136 main/binary-amd64/Release
- ad47745842bc3580949f70d1ce463e32ac0799b3 2174 main/binary-arm64/Packages
- f7f00fea58794110fb47d9d6846bfc6d81b01f9a 998 main/binary-arm64/Packages.gz
+ ad52521c4e7f32c861bbd684f51edc51312e0a4c 2598 main/binary-arm64/Packages
+ 6cc2a9fe168a2e94f91315ab9a6142e4d30c7d48 1155 main/binary-arm64/Packages.gz
  0426ef03c3e8ce67c13a14a548e5654feac93ac8 136 main/binary-arm64/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/source/Sources
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/source/Sources.gz
@@ -50,8 +50,8 @@ SHA256:
  d1fa723ecc2b3e49ab467a92d0044273e2dfde44cd3d90cbdec3402edf761b50 714 main/binary-amd64/Packages
  719b66f4536e4aac919768bea5e2b8a5128500151b1020a002e2a6aab9eb1a0b 504 main/binary-amd64/Packages.gz
  21cee4cad7ccbb294a9607333d9e1566e33119d9693cd343f9e6906d2284ff98 136 main/binary-amd64/Release
- 24e32c8c12b2c1a48ebd738f86e15548544486226e3e0f326b23bfd858a877f0 2174 main/binary-arm64/Packages
- 06ae4340c92513cbc3a2b7ac18724debc2be3ff95525fb29ff181a1c317e0e2d 998 main/binary-arm64/Packages.gz
+ b856c5a26020be2986c3d8cfbc20103645af2475ad1c3703b0ae888dee98ecb1 2598 main/binary-arm64/Packages
+ 97642aa2bc70172b7f41688cce9d21a8de3ea6556d4cdb498d9da59e1b0a1e86 1155 main/binary-arm64/Packages.gz
  e4902726d83277b57caae1d60c540e8ccd408c37b79ff55a36e1c3da21a05702 136 main/binary-arm64/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/source/Sources
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/source/Sources.gz
@@ -67,15 +67,15 @@ SHA256:
  ed74c8fa8499192851b39dc14b181e55f1969b508bb1003707433377bf9cb9bb 140 contrib/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEEzw7wzTSL4JjyeZQXZe3nxwSHOuwFAmk2jD8ACgkQZe3nxwSH
-Ouwlwwv+LnlP0ZcBnrGC/+8U/QMs4VHLXiabneNIvAahbWBZ+mE6A+qatAH4fbVc
-05M819c4bJFWhMoX0CLDYQy83HxDUz4GXEGwWwWbxu24rnVUcxHt6pDlO4kBzGsW
-cG+Nm0b27ja43jIirHXJ7zTwzvpKg+VRTBy01/3EVM6SzqdVnRrHIn+RIUrapXOR
-p3JQP5UZIvYOGAWgX7Nf15IcbKMjesBVPGeqQ/utVQ3eA9tYh7U027cmqtSl6JA5
-8Ww57XGNXNjzlDF+bgcemUr9isxCy543icZQvKB8y9mVkQ8ks7zV4FsYKzUqq4NR
-UN/tMOD+0eon6VZzFqb9zlbR11hwb6kSUzc6sEdA2Ga1b7XYGqR5OgqZCIvzA5Tq
-Y9D1cTte5sb6MyveWWWFsxZ7kGvXkU4WgXVIbF8O+xofOK6DJSyRepGOl72E35Rt
-H31vkAaV2TMoUvfNMweBZPqBLXSKfB5N8SeB60/N6IvMMyUkvcU07MmLex9v5jEq
-pB1vOeJv
-=AtS4
+iQGzBAEBCgAdFiEEzw7wzTSL4JjyeZQXZe3nxwSHOuwFAmk2obEACgkQZe3nxwSH
+OuykJQwArw7HzTH3BnthYTwOV9mmfvb/juT5DGkxVP/kXJNFAP0SSNNR/+D5sx8m
+0rHHRtznulkD0LoFzPFr7+IhMoXieAzZ1RkQjgU/yeHVaH0Rap6c/vBUW3NxHVQ2
+ko2GDifhuT85sHYAxFpPnVsrUCe47IOf+RR2fNSZoC4TVYpYNvTVWGUlY2UKqBQf
+l6+YBsyw9u+DlQFOZMxMIq3ELyRRWjMZ8It7HULaSJGaqhivU8G4YgqcGcg/ZITB
+U3JPA2GiMwLDam2TcsXZEYu9gM7HlBgxrvTclq0lg9q2Vix8VMzHItxlga64VDea
+Ywu3/sRYWAvIDxuijtTKaOoNmNEwyFmZdIbK9xC11GI09UvgAD+nQG/PVeaLAqF3
+J6A9PURs9Vrq4Zeu/i+IQU6t35oyE8jjuihOmZ1iPcxyV0rVNE85oLrjG43y/s2X
+sseN37gyfGNvSXiAR+my4cTfLOeA+cM7bnj4aFQqq9P3dIgThKKucSS9d4DNZlNn
+4WKtc7Xf
+=IXot
 -----END PGP SIGNATURE-----

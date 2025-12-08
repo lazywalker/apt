@@ -49,3 +49,16 @@ Description: Rusty Generic Colouriser
  using grc/grcat-style configuration files. Supports embedded configs, advanced
  count/replace features, and portable packaging.
 
+Package: uconsole-4g
+Version: 0.21
+Maintainer: uconsole-4g <rex@linux.com>
+Architecture: arm64
+Priority: optional
+Section: utils
+Filename: pool/main/u/uconsole-4g/uconsole-4g_0.21_arm64.deb
+Size: 1396
+SHA256: fd20189f98b44bd2cc2f30e6a71d35d537d67bd224b48e3ae05b6fd9145f3a39
+SHA1: 025673c4d44bfb201c3c90328954fd552aff47fa
+MD5sum: eea5b9fd6819474004f41e11aa154e68
+Description: uConsole 4G control script for raspberry pi cm4
+
