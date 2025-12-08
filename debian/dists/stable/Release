@@ -1,13 +1,13 @@
 Origin: lazywalker's repo
 Label: my personal packages
 Codename: stable
-Date: Mon, 08 Dec 2025 10:00:08 UTC
+Date: Mon, 08 Dec 2025 10:22:48 UTC
 Architectures: amd64 arm64
 Components: main contrib
 Description: A simple personal APT repository
 MD5Sum:
- d978dbdfc262857fd7f7ae18ff4524df 714 main/binary-amd64/Packages
- 90cf6f90c70d12f2d3c79ddd24845b7c 504 main/binary-amd64/Packages.gz
+ e69dc3b06f7c41f692d2810d45c13ba1 1181 main/binary-amd64/Packages
+ 2b89f776804650bf7ba54944eee41021 705 main/binary-amd64/Packages.gz
  2cfa364bffc14de2a2ae45ef0fd27878 136 main/binary-amd64/Release
  537efc43894589405f70ee2286992b7a 2598 main/binary-arm64/Packages
  bcb5e7b782317b02c6fd930d25bc3660 1155 main/binary-arm64/Packages.gz
@@ -25,8 +25,8 @@ MD5Sum:
  7029066c27ac6f5ef18d660d5741979a 20 contrib/source/Sources.gz
  56c47f7e2206a61c86828bad5f64b750 140 contrib/source/Release
 SHA1:
- d77cfa0857fc98445351a260cc805a84091aa6dd 714 main/binary-amd64/Packages
- 5161f0318aecbc1af0a8f3436a34d2799daa99d3 504 main/binary-amd64/Packages.gz
+ 11bf0bc1517e9007d9b3d1af2dd00df5f5fdefb3 1181 main/binary-amd64/Packages
+ 03c047712b04315940c6ea4aa87c51f0e482fa6b 705 main/binary-amd64/Packages.gz
  b80b7ff189815fb5d97d27d41cdf81bd206f1112 136 main/binary-amd64/Release
  ad52521c4e7f32c861bbd684f51edc51312e0a4c 2598 main/binary-arm64/Packages
  6cc2a9fe168a2e94f91315ab9a6142e4d30c7d48 1155 main/binary-arm64/Packages.gz
@@ -44,8 +44,8 @@ SHA1:
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 contrib/source/Sources.gz
  0cd7758b7bcb3a74a007315ba854ee62f6b9a7ab 140 contrib/source/Release
 SHA256:
- d1fa723ecc2b3e49ab467a92d0044273e2dfde44cd3d90cbdec3402edf761b50 714 main/binary-amd64/Packages
- 719b66f4536e4aac919768bea5e2b8a5128500151b1020a002e2a6aab9eb1a0b 504 main/binary-amd64/Packages.gz
+ 764b6f76a8d3becaf8f919d55d2c1c286bb7cc441d44245a8275861e792edf11 1181 main/binary-amd64/Packages
+ 2192a5e7c1e1f777603f0dc2fc5a115c048fec2c90f1e3aede9ba9634b56406c 705 main/binary-amd64/Packages.gz
  21cee4cad7ccbb294a9607333d9e1566e33119d9693cd343f9e6906d2284ff98 136 main/binary-amd64/Release
  b856c5a26020be2986c3d8cfbc20103645af2475ad1c3703b0ae888dee98ecb1 2598 main/binary-arm64/Packages
  97642aa2bc70172b7f41688cce9d21a8de3ea6556d4cdb498d9da59e1b0a1e86 1155 main/binary-arm64/Packages.gz
