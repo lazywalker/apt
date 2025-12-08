@@ -1,0 +1,81 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Origin: lazywalker's repo
+Label: my personal packages
+Codename: stable
+Date: Mon, 08 Dec 2025 08:28:46 UTC
+Architectures: amd64 arm64
+Components: main contrib
+Description: A simple personal APT repository
+MD5Sum:
+ d978dbdfc262857fd7f7ae18ff4524df 714 main/binary-amd64/Packages
+ 90cf6f90c70d12f2d3c79ddd24845b7c 504 main/binary-amd64/Packages.gz
+ 2cfa364bffc14de2a2ae45ef0fd27878 136 main/binary-amd64/Release
+ 5082298fabf47a19bc9887de0ace2b6e 2174 main/binary-arm64/Packages
+ 932eb1185986af50764350fb2026d052 998 main/binary-arm64/Packages.gz
+ 3c9fe8bdab0cdff720dda818aeac0fe0 136 main/binary-arm64/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 main/source/Sources
+ 7029066c27ac6f5ef18d660d5741979a 20 main/source/Sources.gz
+ 7868565a264c82f5e104eaf7eed84e91 137 main/source/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 contrib/binary-amd64/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 contrib/binary-amd64/Packages.gz
+ 9613ed411ed5105d39b85ca54adea356 139 contrib/binary-amd64/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 contrib/binary-arm64/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 contrib/binary-arm64/Packages.gz
+ 77a70d7207da9137f25f2b6ca0c67d70 139 contrib/binary-arm64/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 contrib/source/Sources
+ 7029066c27ac6f5ef18d660d5741979a 20 contrib/source/Sources.gz
+ 56c47f7e2206a61c86828bad5f64b750 140 contrib/source/Release
+SHA1:
+ d77cfa0857fc98445351a260cc805a84091aa6dd 714 main/binary-amd64/Packages
+ 5161f0318aecbc1af0a8f3436a34d2799daa99d3 504 main/binary-amd64/Packages.gz
+ b80b7ff189815fb5d97d27d41cdf81bd206f1112 136 main/binary-amd64/Release
+ ad47745842bc3580949f70d1ce463e32ac0799b3 2174 main/binary-arm64/Packages
+ f7f00fea58794110fb47d9d6846bfc6d81b01f9a 998 main/binary-arm64/Packages.gz
+ 0426ef03c3e8ce67c13a14a548e5654feac93ac8 136 main/binary-arm64/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/source/Sources
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/source/Sources.gz
+ 578bd510180c902318de55059045d30e47bd7f8a 137 main/source/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 contrib/binary-amd64/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 contrib/binary-amd64/Packages.gz
+ 9d84aebbfb936c4f684f5e4706e38f2e979e6ed5 139 contrib/binary-amd64/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 contrib/binary-arm64/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 contrib/binary-arm64/Packages.gz
+ ac209c5f751cb80049b822a00375c9c680fd89fa 139 contrib/binary-arm64/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 contrib/source/Sources
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 contrib/source/Sources.gz
+ 0cd7758b7bcb3a74a007315ba854ee62f6b9a7ab 140 contrib/source/Release
+SHA256:
+ d1fa723ecc2b3e49ab467a92d0044273e2dfde44cd3d90cbdec3402edf761b50 714 main/binary-amd64/Packages
+ 719b66f4536e4aac919768bea5e2b8a5128500151b1020a002e2a6aab9eb1a0b 504 main/binary-amd64/Packages.gz
+ 21cee4cad7ccbb294a9607333d9e1566e33119d9693cd343f9e6906d2284ff98 136 main/binary-amd64/Release
+ 24e32c8c12b2c1a48ebd738f86e15548544486226e3e0f326b23bfd858a877f0 2174 main/binary-arm64/Packages
+ 06ae4340c92513cbc3a2b7ac18724debc2be3ff95525fb29ff181a1c317e0e2d 998 main/binary-arm64/Packages.gz
+ e4902726d83277b57caae1d60c540e8ccd408c37b79ff55a36e1c3da21a05702 136 main/binary-arm64/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/source/Sources
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/source/Sources.gz
+ 5093786ba2ae9f6d1da741a66de55b5dc3ac4b87c06027f690c5165e15f713d2 137 main/source/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 contrib/binary-amd64/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 contrib/binary-amd64/Packages.gz
+ 258faf7dd044ec9cfcdf8e69e0778ed4adfa2e55d4e3d08f04aa8e44f90578c2 139 contrib/binary-amd64/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 contrib/binary-arm64/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 contrib/binary-arm64/Packages.gz
+ 588bae57c2a24252223a993b9d81ff889ba59226af0fb99904b2a876c509ffb3 139 contrib/binary-arm64/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 contrib/source/Sources
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 contrib/source/Sources.gz
+ ed74c8fa8499192851b39dc14b181e55f1969b508bb1003707433377bf9cb9bb 140 contrib/source/Release
+-----BEGIN PGP SIGNATURE-----
+
+iQGzBAEBCgAdFiEEzw7wzTSL4JjyeZQXZe3nxwSHOuwFAmk2jD8ACgkQZe3nxwSH
+Ouwlwwv+LnlP0ZcBnrGC/+8U/QMs4VHLXiabneNIvAahbWBZ+mE6A+qatAH4fbVc
+05M819c4bJFWhMoX0CLDYQy83HxDUz4GXEGwWwWbxu24rnVUcxHt6pDlO4kBzGsW
+cG+Nm0b27ja43jIirHXJ7zTwzvpKg+VRTBy01/3EVM6SzqdVnRrHIn+RIUrapXOR
+p3JQP5UZIvYOGAWgX7Nf15IcbKMjesBVPGeqQ/utVQ3eA9tYh7U027cmqtSl6JA5
+8Ww57XGNXNjzlDF+bgcemUr9isxCy543icZQvKB8y9mVkQ8ks7zV4FsYKzUqq4NR
+UN/tMOD+0eon6VZzFqb9zlbR11hwb6kSUzc6sEdA2Ga1b7XYGqR5OgqZCIvzA5Tq
+Y9D1cTte5sb6MyveWWWFsxZ7kGvXkU4WgXVIbF8O+xofOK6DJSyRepGOl72E35Rt
+H31vkAaV2TMoUvfNMweBZPqBLXSKfB5N8SeB60/N6IvMMyUkvcU07MmLex9v5jEq
+pB1vOeJv
+=AtS4
+-----END PGP SIGNATURE-----

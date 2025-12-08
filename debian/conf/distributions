@@ -1,0 +1,7 @@
+Origin: lazywalker's repo
+Label: my personal packages
+Codename: stable
+Architectures: amd64 arm64 source
+Components: main contrib
+Description: A simple personal APT repository
+SignWith: 93268D48AF5EB716

@@ -1,0 +1,5 @@
+Component: contrib
+Origin: lazywalker's repo
+Label: my personal packages
+Architecture: source
+Description: A simple personal APT repository

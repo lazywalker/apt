@@ -1,0 +1,5 @@
+Component: main
+Origin: lazywalker's repo
+Label: my personal packages
+Architecture: arm64
+Description: A simple personal APT repository
