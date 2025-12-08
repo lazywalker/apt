@@ -4,7 +4,7 @@ Hash: SHA512
 Origin: lazywalker's repo
 Label: my personal packages
 Codename: stable
-Date: Mon, 08 Dec 2025 10:22:48 UTC
+Date: Mon, 08 Dec 2025 12:29:17 UTC
 Architectures: amd64 arm64
 Components: main contrib
 Description: A simple personal APT repository
@@ -12,8 +12,8 @@ MD5Sum:
  e69dc3b06f7c41f692d2810d45c13ba1 1181 main/binary-amd64/Packages
  2b89f776804650bf7ba54944eee41021 705 main/binary-amd64/Packages.gz
  2cfa364bffc14de2a2ae45ef0fd27878 136 main/binary-amd64/Release
- 537efc43894589405f70ee2286992b7a 2598 main/binary-arm64/Packages
- bcb5e7b782317b02c6fd930d25bc3660 1155 main/binary-arm64/Packages.gz
+ 22f81326104a7da82ee5be2824a9b6ce 3065 main/binary-arm64/Packages
+ 2fd394a30df7fbf59e2a97aee497b50d 1353 main/binary-arm64/Packages.gz
  3c9fe8bdab0cdff720dda818aeac0fe0 136 main/binary-arm64/Release
  d41d8cd98f00b204e9800998ecf8427e 0 main/source/Sources
  7029066c27ac6f5ef18d660d5741979a 20 main/source/Sources.gz
@@ -31,8 +31,8 @@ SHA1:
  11bf0bc1517e9007d9b3d1af2dd00df5f5fdefb3 1181 main/binary-amd64/Packages
  03c047712b04315940c6ea4aa87c51f0e482fa6b 705 main/binary-amd64/Packages.gz
  b80b7ff189815fb5d97d27d41cdf81bd206f1112 136 main/binary-amd64/Release
- ad52521c4e7f32c861bbd684f51edc51312e0a4c 2598 main/binary-arm64/Packages
- 6cc2a9fe168a2e94f91315ab9a6142e4d30c7d48 1155 main/binary-arm64/Packages.gz
+ efd38e1bbd9f75e19a68bd69310e4f7f0e11a495 3065 main/binary-arm64/Packages
+ dee9bb55fd37c8674f5f083cd603a89511062a46 1353 main/binary-arm64/Packages.gz
  0426ef03c3e8ce67c13a14a548e5654feac93ac8 136 main/binary-arm64/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/source/Sources
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/source/Sources.gz
@@ -50,8 +50,8 @@ SHA256:
  764b6f76a8d3becaf8f919d55d2c1c286bb7cc441d44245a8275861e792edf11 1181 main/binary-amd64/Packages
  2192a5e7c1e1f777603f0dc2fc5a115c048fec2c90f1e3aede9ba9634b56406c 705 main/binary-amd64/Packages.gz
  21cee4cad7ccbb294a9607333d9e1566e33119d9693cd343f9e6906d2284ff98 136 main/binary-amd64/Release
- b856c5a26020be2986c3d8cfbc20103645af2475ad1c3703b0ae888dee98ecb1 2598 main/binary-arm64/Packages
- 97642aa2bc70172b7f41688cce9d21a8de3ea6556d4cdb498d9da59e1b0a1e86 1155 main/binary-arm64/Packages.gz
+ 31fc2254a105a3ac9fcd839b4384369e12205601e25dfa043ddfc9700b57f74b 3065 main/binary-arm64/Packages
+ 9839139c8d575747149abe2c40a72ba4b27e3550f9e3df0b5e54f36ea6f211f5 1353 main/binary-arm64/Packages.gz
  e4902726d83277b57caae1d60c540e8ccd408c37b79ff55a36e1c3da21a05702 136 main/binary-arm64/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/source/Sources
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/source/Sources.gz
@@ -67,15 +67,15 @@ SHA256:
  ed74c8fa8499192851b39dc14b181e55f1969b508bb1003707433377bf9cb9bb 140 contrib/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEEzw7wzTSL4JjyeZQXZe3nxwSHOuwFAmk2pvkACgkQZe3nxwSH
-Oux53wv9E4CF/Z2oXTdlNOALdyaskS5EIqkgzvT6cXPh4e7jBcHxfDKS40OsGj8e
-9/VOrQVZBopME9Q0bBbTkGj2M250dVMgBBdnKpepWgVzzACBwcfZXpPGWS5lPcmH
-SHR7WzTAS6OwFfzNtFO2TnL37hB1DZ/qMNq2RKOxcNrcnVAkJds9kobhkOC7a3JQ
-O25Q/+0D2VelIcqg6czuvmHMRE89UcRhT/CkSDgf0OAky3dhmIaDEivBeHWalvea
-QzQpC7S5BR9X1A+cJuEa+S8E+ybqcTmfi/vzM2VMVb6N1y/BTCVR95ISyhuO2UHj
-Qb+PJczx2IVdZ4ebQsdykurwYZO0FXpiLrmEemuL7K9Tz/bpO+qhWvqcVpdO5EYY
-GeYN5Gl8jmTTW//7/72enReZpgFCrONK+v6X8xDCUuLjuON3KLb812c3K3Fgn3jU
-PkUSy8CiISQELcUgcrKhbsObOGIDd26cEPgxnbtwftWUkQvS7otMYfLqn2/WWajQ
-ItteU8zl
-=qJ12
+iQGzBAEBCgAdFiEEzw7wzTSL4JjyeZQXZe3nxwSHOuwFAmk2xJ0ACgkQZe3nxwSH
+OuxCwQv/Q13uMDUD6zwVSnYKklseKT79FvePWtFy9DqHADz+sfN2pNM1pbsMNaxZ
+zdOXqTeEdM5CtPjScceQm7ffJAO47W5f+mxH5bmERUifkYvJ4a+PsMFLejdOJL2u
+dlnC1sNQDdqyXjM2c5+anwTtiKE6Ux3W5XRXU57bvyqCVfppWKvcPxysiu4OUqT4
+2TTGEXA4K13vrcUMRavZlO/XL9EylRO9y+tmhUPsAxC07coCGle362eZA4Fl/S9Q
+u9bp+m7bq4A+DS0uWA4Ikq94HdUdJ8h5h70Ga7ZPw3Nxs1vxBqvA1Vrpzlz8dcll
+I+6ORdmHjT8rFTx6aPAcHRYGd+Y9ZlTE8NesuKQuHmAC0LEYnQD5vkX8IfaaANKD
+qnvbL99CQ8DXiyPhKowWgVpIjznWJQMYtDAIvq18YQOjN6KY35EvYrv0OoEIQPyU
++p98qloE1nRkJXh1DsS8xtrp4J0Mw6Ei3xHWGB4AZQZrxsr5Us+yfeOFVv9dVX4J
+CZOLtQkP
+=e+xy
 -----END PGP SIGNATURE-----

@@ -30,6 +30,21 @@ SHA1: ca5758227db59f61b02936695452f64608789a3d
 MD5sum: af86b67a9644bd8dd887426ba7c81918
 Description:  This kernel includes the patches for ClockworkPi CM3/CM4/CM5 devices.
 
+Package: neovim
+Architecture: arm64
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 4.2)
+Priority: optional
+Section: devel
+Filename: pool/main/n/neovim/neovim_0.12.0_arm64.deb
+Size: 10064222
+SHA256: 1bdbc917ca03ae8ce2902866cb5ba30ab669cfbe32fcbaf9d62702f8ce889f1d
+SHA1: 8c12c79219d08af5bc94a5578e398c4100aeddb8
+MD5sum: 0c0da296887c444ec513655e273d9b87
+Description: Vim-fork focused on extensibility and usability.
+Maintainer: Neovim.io
+Version: 0.12.0
+Installed-Size: 33399
+
 Package: rgrc
 Version: 0.6.1-1
 Architecture: arm64
