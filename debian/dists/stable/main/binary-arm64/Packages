@@ -110,7 +110,7 @@ MD5sum: 9c11085dad161de5a681a89e0059ab50
 Description: uconsole-backlight
  turns the panel backlight on if the driver failed to do so.
 
-Package: uconsole-cm-kernel-headers-6.12.47-v8+
+Package: uconsole-cm-kernel-headers
 Source: uconsole
 Version: 6.12.47-g4bd909d3cf70-8
 Architecture: arm64
@@ -118,17 +118,16 @@ Maintainer: lazywalker <lazywalkerz@gmail.com>
 Installed-Size: 50862
 Priority: optional
 Section: kernel
-Filename: pool/main/u/uconsole/uconsole-cm-kernel-headers-6.12.47-v8+_6.12.47-g4bd909d3cf70-8_arm64.deb
-Size: 8566704
-SHA256: 0674820431718ccc3968dade0e6404d30bb84fecb8790ae4591520adc589b15f
-SHA1: 200667acf7b1429290428211ac2dce7c7bf8d663
-MD5sum: e80cdddecbffab72406721bf51f14dd2
+Filename: pool/main/u/uconsole/uconsole-cm-kernel-headers_6.12.47-g4bd909d3cf70-8_arm64.deb
+Size: 8566032
+SHA256: c98446543d8e64f77e3cebbd147b3ec2c0d7c2f9594026b582681ae3ae0f86ec
+SHA1: 2b6e352cc113bf210ff48e7b4570e4f08a440de5
+MD5sum: e6a35aa021c2cd588b88b9e41fa12c81
 Description: Linux kernel headers for 6.12.47-v8+ on arm64
- This package provides kernel header files for 6.12.47-v8+ on arm64
- .
+ This package provides kernel header files for 6.12.47-v8+ on arm64.
  This is useful for people who need to build external modules
 
-Package: uconsole-cm-kernel-image-6.12.47-v8+
+Package: uconsole-cm-kernel-image
 Source: uconsole
 Version: 6.12.47-g4bd909d3cf70-8
 Architecture: arm64
@@ -138,11 +137,11 @@ Provides: linux-image, linux-image-rpi-v8, linux-latest-modules-6.12.47+rpt-rpi-
 Conflicts: linux-image, linux-image-rpi-v8, linux-image-rpi-2712, raspberrypi-kernel, clockworkpi-cm4-kernel
 Priority: required
 Section: kernel
-Filename: pool/main/u/uconsole/uconsole-cm-kernel-image-6.12.47-v8+_6.12.47-g4bd909d3cf70-8_arm64.deb
-Size: 32715916
-SHA256: 108734cf7e949c13580dc083bbd0f751a96ef1779e188f98655d8eb500c97bee
-SHA1: 7fde70c36a9a2b14af315a17a01e5c3bc402ccf5
-MD5sum: ee2cdb8cf09325d0f70de82d09480e26
+Filename: pool/main/u/uconsole/uconsole-cm-kernel-image_6.12.47-g4bd909d3cf70-8_arm64.deb
+Size: 32715928
+SHA256: 719edfbf2b2642d6b2669b35dc8023cf861dc7cb22a84c018747c77a2b557c50
+SHA1: 56cc5fa475225e86aa3579ef8a196546f8ecda04
+MD5sum: 1bb390f31c833f36b5a530c2becacb8f
 Description: Linux kernel, version 6.12.47-v8+
  This package contains the Linux kernel, modules and corresponding other
  files, version: 6.12.47-v8+.
