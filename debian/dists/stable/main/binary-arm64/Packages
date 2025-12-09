@@ -110,62 +110,22 @@ MD5sum: 9c11085dad161de5a681a89e0059ab50
 Description: uconsole-backlight
  turns the panel backlight on if the driver failed to do so.
 
-Package: uconsole-cm-kernel-headers
+Package: uconsole-cm-kernel
 Source: uconsole
-Version: 6.12.47-g4bd909d3cf70-8
+Version: 6.12.47-v8-16k+
 Architecture: arm64
 Maintainer: lazywalker <lazywalkerz@gmail.com>
-Installed-Size: 50862
-Priority: optional
-Section: kernel
-Filename: pool/main/u/uconsole/uconsole-cm-kernel-headers_6.12.47-g4bd909d3cf70-8_arm64.deb
-Size: 8566032
-SHA256: c98446543d8e64f77e3cebbd147b3ec2c0d7c2f9594026b582681ae3ae0f86ec
-SHA1: 2b6e352cc113bf210ff48e7b4570e4f08a440de5
-MD5sum: e6a35aa021c2cd588b88b9e41fa12c81
-Description: Linux kernel headers for 6.12.47-v8+ on arm64
- This package provides kernel header files for 6.12.47-v8+ on arm64.
- This is useful for people who need to build external modules
-
-Package: uconsole-cm-kernel-image
-Source: uconsole
-Version: 6.12.47-g4bd909d3cf70-8
-Architecture: arm64
-Maintainer: lazywalker <lazywalkerz@gmail.com>
-Installed-Size: 41725
 Provides: linux-image, linux-image-rpi-v8, linux-latest-modules-6.12.47+rpt-rpi-v8, linux-image-rpi-2712, linux-latest-modules-6.12.47+rpt-rpi-2712, raspberrypi-kernel, clockworkpi-cm4-kernel, wireguard-modules (= 1.0.0)
 Conflicts: linux-image, linux-image-rpi-v8, linux-image-rpi-2712, raspberrypi-kernel, clockworkpi-cm4-kernel
+Replaces: linux-image, linux-image-rpi-v8, linux-image-rpi-2712, raspberrypi-kernel, clockworkpi-cm4-kernel
 Priority: required
 Section: kernel
-Filename: pool/main/u/uconsole/uconsole-cm-kernel-image_6.12.47-g4bd909d3cf70-8_arm64.deb
-Size: 32715928
-SHA256: 719edfbf2b2642d6b2669b35dc8023cf861dc7cb22a84c018747c77a2b557c50
-SHA1: 56cc5fa475225e86aa3579ef8a196546f8ecda04
-MD5sum: 1bb390f31c833f36b5a530c2becacb8f
-Description: Linux kernel, version 6.12.47-v8+
- This package contains the Linux kernel, modules and corresponding other
- files, version: 6.12.47-v8+.
- This kernel includes the patches for ClockworkPi CM3/CM4/CM5 devices.
-
-Package: uconsole-cm-kernel-libc-dev
-Source: uconsole
-Version: 6.12.47-g4bd909d3cf70-8
-Architecture: arm64
-Maintainer: lazywalker <lazywalkerz@gmail.com>
-Installed-Size: 7082
-Provides: linux-kernel-headers, linux-libc-dev
-Conflicts: linux-libc-dev
-Multi-Arch: same
-Priority: optional
-Section: devel
-Filename: pool/main/u/uconsole/uconsole-cm-kernel-libc-dev_6.12.47-g4bd909d3cf70-8_arm64.deb
-Size: 1375464
-SHA256: 841afbc4c680f538513d2383d0fa59867ddf0cb27d6004a953897425a3569d70
-SHA1: 496d43e7606c18ea11e1bed68c9a2cc57b95081b
-MD5sum: 85c613c5ed65b2aa869ba6a88430aefc
-Description: Linux support headers for userspace development
- This package provides userspaces headers from the Linux kernel.  These headers
- are used by the installed headers for GNU glibc and other system libraries.
+Filename: pool/main/u/uconsole/uconsole-cm-kernel_6.12.47-v8-16k+_arm64.deb
+Size: 34202616
+SHA256: 7b19d271b31c9beb2298be8d59f0eaa1506fb203a200d297d6c7f652fb54fba4
+SHA1: a0c0b85f0470d812f4d0107669dcff2a2803ddd4
+MD5sum: b618639908729474a81d284b5b951397
+Description:  This kernel includes the patches for ClockworkPi CM3/CM4/CM5 devices.
 
 Package: uconsole-theme
 Source: uconsole
