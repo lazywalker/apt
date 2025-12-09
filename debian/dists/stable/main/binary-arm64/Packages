@@ -122,9 +122,9 @@ Priority: required
 Section: kernel
 Filename: pool/main/u/uconsole/uconsole-cm-kernel_6.12.47-v8-16k+_arm64.deb
 Size: 34202616
-SHA256: 7b19d271b31c9beb2298be8d59f0eaa1506fb203a200d297d6c7f652fb54fba4
-SHA1: a0c0b85f0470d812f4d0107669dcff2a2803ddd4
-MD5sum: b618639908729474a81d284b5b951397
+SHA256: 14c4607ad05bb31a7392c87bccf89c1d9ad932dad9a0be7cad5e90b150fccf01
+SHA1: 6866b880989547e01e73558882ce9d44f12dfac7
+MD5sum: 3f63dea485bbee039c1e697dc4766cac
 Description:  This kernel includes the patches for ClockworkPi CM3/CM4/CM5 devices.
 
 Package: uconsole-theme
