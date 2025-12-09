@@ -65,68 +65,71 @@ Description: Rusty Generic Colouriser
  count/replace features, and portable packaging.
 
 Package: uconsole-4g
-Version: 0.21.1
+Source: uconsole
+Version: 0.21.2
 Maintainer: lazywalker <lazywalkerz@gmail.com>
 Architecture: arm64
 Priority: optional
 Section: utils
-Filename: pool/main/u/uconsole-4g/uconsole-4g_0.21.1_arm64.deb
-Size: 1412
-SHA256: 9a14f142cb06f268dc12f22929840f24a43faf8545b6ae44bd27c2d9fb4043ea
-SHA1: 6b4031a4a5b9c6524255f2fefc15f1b9ab91d422
-MD5sum: 4432d56ae6fa6c486b03da7b44ce4694
+Filename: pool/main/u/uconsole/uconsole-4g_0.21.2_arm64.deb
+Size: 1420
+SHA256: 7b3dc5f8d1caed0628234158a427ed0f98cfc69133a06ec69a0161219067f471
+SHA1: 4978ba9443cae36a603ea65e9ba2cf7d90164921
+MD5sum: 5d4fa8d3f88128c52b0c6ff3945a5c8b
 Description: uConsole 4G control script for raspberry pi cm4
 
 Package: uconsole-audio
-Version: 1.2
-Maintainer: uconsole-audio <lazywalkerz@gmail.com>
+Source: uconsole
+Version: 1.3
+Maintainer: lazywalker <lazywalkerz@gmail.com>
 Architecture: all
 Depends: python3
-Replaces: clockworkpi-audio-shutdown, clockworkpi-audio-patch
+Replaces: uconsole-audio-shutdown
 Priority: required
 Section: sound
-Filename: pool/main/u/uconsole-audio/uconsole-audio_1.2_all.deb
-Size: 12936
-SHA256: 0785a1a88cda684fb2635c92a1dff5b83d1e54132caac96e2ef9351d19a19415
-SHA1: 26ec86db017e6470801ea1516eaaddea4c15b635
-MD5sum: d72881555cacdbc3d930b822aff18613
+Filename: pool/main/u/uconsole/uconsole-audio_1.3_all.deb
+Size: 12944
+SHA256: 38b0c12f0c247339a975f77da99799a8fe415164854f930914635c3e8ec11dbe
+SHA1: 22be28d44788fffda948eaa40562ddc9cc6683ac
+MD5sum: 6dc1fb318910ad230754424e3129ff8a
 Description: uconsole-audio
  provides 3.5mm jack and speaker switching and stopping speaker pop on shutdown.
 
 Package: uconsole-backlight
-Version: 1.1
+Source: uconsole
+Version: 1.2
 Maintainer: lazywalker <lazywalkerz@gmail.com>
 Architecture: all
 Priority: required
 Section: utils
-Filename: pool/main/u/uconsole-backlight/uconsole-backlight_1.1_all.deb
-Size: 976
-SHA256: d593967f59f9d7f91145ef7e40bcf3b735cb5de9b3710e7b3eddf93160999f89
-SHA1: 27ec0c3c123e4bb202c1dd3357b61b586ce2c9ac
-MD5sum: 20a884acef61ee82d9040b3a66a9926d
+Filename: pool/main/u/uconsole/uconsole-backlight_1.2_all.deb
+Size: 992
+SHA256: 5c04e4ced4de9f65c571cc5f6d6b2e7a9e501f08f843db3b800f80b770d33eb1
+SHA1: b4485c6f552df29f231812be03eacff092c467a8
+MD5sum: 9c11085dad161de5a681a89e0059ab50
 Description: uconsole-backlight
  turns the panel backlight on if the driver failed to do so.
 
 Package: uconsole-cm-kernel-headers-6.12.47-v8+
-Source: rpi-kernel-headers
+Source: uconsole
 Version: 6.12.47-g4bd909d3cf70-8
 Architecture: arm64
 Maintainer: lazywalker <lazywalkerz@gmail.com>
 Installed-Size: 50862
 Priority: optional
 Section: kernel
-Filename: pool/main/r/rpi-kernel-headers/uconsole-cm-kernel-headers-6.12.47-v8+_6.12.47-g4bd909d3cf70-8_arm64.deb
-Size: 8566596
-SHA256: 876b37594a2826a7dae021864939d579345de10923f6ec52f97f62d3b9ac8a58
-SHA1: 4bff162f4aba03467a80b21cd7e32b00136d9b00
-MD5sum: 38f245e4aaa90618969d5677a7d1cb0f
+Filename: pool/main/u/uconsole/uconsole-cm-kernel-headers-6.12.47-v8+_6.12.47-g4bd909d3cf70-8_arm64.deb
+Size: 8566704
+SHA256: 0674820431718ccc3968dade0e6404d30bb84fecb8790ae4591520adc589b15f
+SHA1: 200667acf7b1429290428211ac2dce7c7bf8d663
+MD5sum: e80cdddecbffab72406721bf51f14dd2
 Description: Linux kernel headers for 6.12.47-v8+ on arm64
  This package provides kernel header files for 6.12.47-v8+ on arm64
  .
  This is useful for people who need to build external modules
 
 Package: uconsole-cm-kernel-image-6.12.47-v8+
-Source: rpi-linux
+Source: uconsole
 Version: 6.12.47-g4bd909d3cf70-8
 Architecture: arm64
 Maintainer: lazywalker <lazywalkerz@gmail.com>
@@ -135,18 +138,18 @@ Provides: linux-image, linux-image-rpi-v8, linux-latest-modules-6.12.47+rpt-rpi-
 Conflicts: linux-image, linux-image-rpi-v8, linux-image-rpi-2712, raspberrypi-kernel, clockworkpi-cm4-kernel
 Priority: required
 Section: kernel
-Filename: pool/main/r/rpi-linux/uconsole-cm-kernel-image-6.12.47-v8+_6.12.47-g4bd909d3cf70-8_arm64.deb
-Size: 32715928
-SHA256: 0527bb868987a7ee2a56a9890c7b25b6ad90d1a46c1f95bc601f703346da48d2
-SHA1: 113ef1cbe39ba63943689daec329504f3d051a07
-MD5sum: 3049747d789eecfd7b9c78379f24852e
+Filename: pool/main/u/uconsole/uconsole-cm-kernel-image-6.12.47-v8+_6.12.47-g4bd909d3cf70-8_arm64.deb
+Size: 32715916
+SHA256: 108734cf7e949c13580dc083bbd0f751a96ef1779e188f98655d8eb500c97bee
+SHA1: 7fde70c36a9a2b14af315a17a01e5c3bc402ccf5
+MD5sum: ee2cdb8cf09325d0f70de82d09480e26
 Description: Linux kernel, version 6.12.47-v8+
  This package contains the Linux kernel, modules and corresponding other
  files, version: 6.12.47-v8+.
  This kernel includes the patches for ClockworkPi CM3/CM4/CM5 devices.
 
 Package: uconsole-cm-kernel-libc-dev
-Source: rpi-linux
+Source: uconsole
 Version: 6.12.47-g4bd909d3cf70-8
 Architecture: arm64
 Maintainer: lazywalker <lazywalkerz@gmail.com>
@@ -156,27 +159,28 @@ Conflicts: linux-libc-dev
 Multi-Arch: same
 Priority: optional
 Section: devel
-Filename: pool/main/r/rpi-linux/uconsole-cm-kernel-libc-dev_6.12.47-g4bd909d3cf70-8_arm64.deb
-Size: 1375468
-SHA256: 0ee7fda231489a4660d6ca70af4ca44ebeca9cf6b3c6796d5f6863a6cdf6a689
-SHA1: 70e2a9d5fede3e1455264c002a0eacba8fcc4afc
-MD5sum: 912c606d67a5c29f3b695c4b36384fe7
+Filename: pool/main/u/uconsole/uconsole-cm-kernel-libc-dev_6.12.47-g4bd909d3cf70-8_arm64.deb
+Size: 1375464
+SHA256: 841afbc4c680f538513d2383d0fa59867ddf0cb27d6004a953897425a3569d70
+SHA1: 496d43e7606c18ea11e1bed68c9a2cc57b95081b
+MD5sum: 85c613c5ed65b2aa869ba6a88430aefc
 Description: Linux support headers for userspace development
  This package provides userspaces headers from the Linux kernel.  These headers
  are used by the installed headers for GNU glibc and other system libraries.
 
 Package: uconsole-theme
-Version: 0.1.0
+Source: uconsole
+Version: 1.0
 Maintainer: lazywalker <lazywalkerz@gmail.com>
 Architecture: all
 Replaces: rpd-plym-splash, raspberrypi-ui-mods, piwiz, rpd-common
 Priority: optional
 Section: misc
-Filename: pool/main/u/uconsole-theme/uconsole-theme_0.1.0_all.deb
-Size: 5738852
-SHA256: 5a28f0b8261895999c75e6e6a06beb637fa3e365609082f2b6d844bd75966258
-SHA1: ef735efb1e70b0def7289987a1ecfdc874664cd3
-MD5sum: f8131dca408a92cacc19a7fe57e77474
+Filename: pool/main/u/uconsole/uconsole-theme_1.0_all.deb
+Size: 5738864
+SHA256: 49b963f9ecb1599e0f1266a90ea2d3c38032b8c515942ad0640747551e7c5b60
+SHA1: 90410e8769573993723ce3f780066acc08254217
+MD5sum: 082cc0f924aba796d5a5f0e7ea71bfc4
 Description: uconsole-theme
- uconsole-theme provides wallpapers and boot splash clcokworkpi theme
+ provides wallpapers and boot splash clcokworkpi theme.
 
