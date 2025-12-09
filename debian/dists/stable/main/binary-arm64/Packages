@@ -121,10 +121,10 @@ Replaces: linux-image, linux-image-rpi-v8, linux-image-rpi-2712, raspberrypi-ker
 Priority: required
 Section: kernel
 Filename: pool/main/u/uconsole/uconsole-cm-kernel_6.12.47-v8-16k+_arm64.deb
-Size: 34202616
-SHA256: b8ff3deb2773d804c0d55c00bdc9bebf9a02da7529c28ab60897be849a13011d
-SHA1: f3c2ef34e1ae2a221b1478a19e49c41bad10d76b
-MD5sum: a12925cb2334f87650dc247659d39c72
+Size: 66378044
+SHA256: ad6fa3c6b188633fbd96074b4bc7953a5d23ff12fd0378118b582c6f9fb82e3f
+SHA1: fa13aaa1a862bb5522785ab17f711ffff4d85637
+MD5sum: 96a92da8d138607e9e2133283e9b7277
 Description:  This kernel includes the patches for ClockworkPi CM3/CM4/CM5 devices.
 
 Package: uconsole-theme
