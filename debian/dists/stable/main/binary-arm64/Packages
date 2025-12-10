@@ -1,50 +1,3 @@
-Package: clockworkpi-cm-firmware
-Version: 0.21
-Maintainer: clockworkpi-cm-firmware <rex@linux.com>
-Architecture: arm64
-Provides: raspi-firmware
-Conflicts: raspi-firmware
-Replaces: raspi-firmware
-Priority: required
-Section: utils
-Filename: pool/main/c/clockworkpi-cm-firmware/clockworkpi-cm-firmware_0.21_arm64.deb
-Size: 4556100
-SHA256: 8bfbcd11363e59d3c84a45324d288c62c02afdb7dafd2012383912c5be0746bf
-SHA1: f79f8f5fa4afcb90e84b413dcae8d7faf8dd61c7
-MD5sum: 5c257585c053aea19387be81cb396194
-Description: RaspberryPi firmware files.
-
-Package: clockworkpi-kernel
-Version: 6.12.57-v8-16k+
-Architecture: arm64
-Maintainer: clockworkpi-kernel <rex@linux.com>
-Provides: linux-image, linux-image-rpi-v8, linux-latest-modules-6.12.57+rpt-rpi-v8, linux-image-rpi-2712, linux-latest-modules-6.12.57+rpt-rpi-2712, raspberrypi-kernel, clockworkpi-cm4-kernel, wireguard-modules (= 1.0.0)
-Conflicts: linux-image, linux-image-rpi-v8, linux-image-rpi-2712, raspberrypi-kernel, clockworkpi-cm4-kernel
-Replaces: linux-image, linux-image-rpi-v8, linux-image-rpi-2712, raspberrypi-kernel, clockworkpi-cm4-kernel
-Priority: required
-Section: kernel
-Filename: pool/main/c/clockworkpi-kernel/clockworkpi-kernel_6.12.57-v8-16k+_arm64.deb
-Size: 96199652
-SHA256: f73b8eb1494d633a20ab374b6470e738e9913f2bcab568a6160a6e3309756872
-SHA1: ca5758227db59f61b02936695452f64608789a3d
-MD5sum: af86b67a9644bd8dd887426ba7c81918
-Description:  This kernel includes the patches for ClockworkPi CM3/CM4/CM5 devices.
-
-Package: neovim
-Architecture: arm64
-Depends: libc6 (>= 2.38), libgcc-s1 (>= 4.2)
-Priority: optional
-Section: devel
-Filename: pool/main/n/neovim/neovim_0.12.0_arm64.deb
-Size: 10064222
-SHA256: 1bdbc917ca03ae8ce2902866cb5ba30ab669cfbe32fcbaf9d62702f8ce889f1d
-SHA1: 8c12c79219d08af5bc94a5578e398c4100aeddb8
-MD5sum: 0c0da296887c444ec513655e273d9b87
-Description: Vim-fork focused on extensibility and usability.
-Maintainer: Neovim.io
-Version: 0.12.0
-Installed-Size: 33399
-
 Package: rgrc
 Version: 0.6.2-1
 Architecture: arm64
@@ -109,6 +62,24 @@ SHA1: b4485c6f552df29f231812be03eacff092c467a8
 MD5sum: 9c11085dad161de5a681a89e0059ab50
 Description: uconsole-backlight
  turns the panel backlight on if the driver failed to do so.
+
+Package: uconsole-cm-firmware
+Version: 0.3
+Maintainer: lazywalker <lazywalkerz@gmail.com>
+Architecture: arm64
+Provides: raspi-firmware
+Conflicts: raspi-firmware
+Replaces: raspi-firmware
+Priority: required
+Section: non-free-firmware/misc
+Filename: pool/main/u/uconsole-cm-firmware/uconsole-cm-firmware_0.3_arm64.deb
+Size: 4554864
+SHA256: 9d6a735a5e85081ded8fc713b883114e37a61395bb75c64a99731a931863e5c0
+SHA1: e77ae465849b283fe5ed997daa5cfbce66dff633
+MD5sum: 7facba59308bfb4b0d22e2a1ac9541e5
+Description: RaspberryPi firmware files for uconsole.
+ This package contains all the proprietary files necessary to boot a
+ Raspberry Pi board.
 
 Package: uconsole-cm-kernel
 Source: uconsole
