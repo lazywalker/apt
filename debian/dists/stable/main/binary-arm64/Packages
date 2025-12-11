@@ -79,6 +79,7 @@ Description: uconsole-backlight
  turns the panel backlight on if the driver failed to do so.
 
 Package: uconsole-cm-firmware
+Source: uconsole
 Version: 0.3
 Maintainer: lazywalker <lazywalkerz@gmail.com>
 Architecture: arm64
@@ -87,11 +88,11 @@ Conflicts: raspi-firmware
 Replaces: raspi-firmware
 Priority: required
 Section: non-free-firmware/misc
-Filename: pool/main/u/uconsole-cm-firmware/uconsole-cm-firmware_0.3_arm64.deb
-Size: 4554864
-SHA256: 9d6a735a5e85081ded8fc713b883114e37a61395bb75c64a99731a931863e5c0
-SHA1: e77ae465849b283fe5ed997daa5cfbce66dff633
-MD5sum: 7facba59308bfb4b0d22e2a1ac9541e5
+Filename: pool/main/u/uconsole/uconsole-cm-firmware_0.3_arm64.deb
+Size: 4554872
+SHA256: f2deded70f71b2b7740fd59f9cef46dd711843ed4dc6e468100b03931665ceb3
+SHA1: 7043a0b2d1478fb3d3042365fd2501dc58def271
+MD5sum: acabe47fb16d57449cd8b63c0bec86ab
 Description: RaspberryPi firmware files for uconsole.
  This package contains all the proprietary files necessary to boot a
  Raspberry Pi board.
