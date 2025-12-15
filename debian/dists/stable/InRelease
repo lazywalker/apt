@@ -4,7 +4,7 @@ Hash: SHA512
 Origin: lazywalker's repo
 Label: my personal packages
 Codename: stable
-Date: Thu, 11 Dec 2025 15:41:30 UTC
+Date: Mon, 15 Dec 2025 23:54:25 UTC
 Architectures: amd64 arm64
 Components: main contrib
 Description: A simple personal APT repository
@@ -12,8 +12,8 @@ MD5Sum:
  f604ea42c88a1fd6b2f6b1e425688179 2745 main/binary-amd64/Packages
  f45aa0b37b256c3870bd12cc0d4c2c54 1298 main/binary-amd64/Packages.gz
  2cfa364bffc14de2a2ae45ef0fd27878 136 main/binary-amd64/Release
- 14d0d8613f67fe10b9aed7bf06ead637 5369 main/binary-arm64/Packages
- 749413f7df765032c7d816d261274cd1 2146 main/binary-arm64/Packages.gz
+ 04da7cd3487a6ba9037bf06ce238274e 5369 main/binary-arm64/Packages
+ 8d77bfd9be7fd940b043ffcaa5a0d136 2148 main/binary-arm64/Packages.gz
  3c9fe8bdab0cdff720dda818aeac0fe0 136 main/binary-arm64/Release
  d41d8cd98f00b204e9800998ecf8427e 0 main/source/Sources
  7029066c27ac6f5ef18d660d5741979a 20 main/source/Sources.gz
@@ -31,8 +31,8 @@ SHA1:
  55dc6049db279662af37e57a7655b3cc34d208d2 2745 main/binary-amd64/Packages
  ae18d09cb42115fabff8907cfd26f76c9b9c8e11 1298 main/binary-amd64/Packages.gz
  b80b7ff189815fb5d97d27d41cdf81bd206f1112 136 main/binary-amd64/Release
- 4fcc69431665c21ce8f62507188b689fae789eeb 5369 main/binary-arm64/Packages
- 01f2f924365be60c843e471766125c6af923c8f8 2146 main/binary-arm64/Packages.gz
+ 3e5d512abf19e9d75d383b93279e8ae5f3cd4ab7 5369 main/binary-arm64/Packages
+ 41e2a297fc194827545b3774e59d159657101973 2148 main/binary-arm64/Packages.gz
  0426ef03c3e8ce67c13a14a548e5654feac93ac8 136 main/binary-arm64/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/source/Sources
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/source/Sources.gz
@@ -50,8 +50,8 @@ SHA256:
  835e9ccb05836c04ae28cfb10926a1e42a880bcc1c22dcad0ad0df3e2457bd43 2745 main/binary-amd64/Packages
  b7b3d7554825ddce001d4116f80b98ea12ef2763841831042802b89cd8db4ef2 1298 main/binary-amd64/Packages.gz
  21cee4cad7ccbb294a9607333d9e1566e33119d9693cd343f9e6906d2284ff98 136 main/binary-amd64/Release
- c5dd7ce5559907f283317c4e30039e1c120d1542462314e1f0187a03603e9dcc 5369 main/binary-arm64/Packages
- 27e039c206c19e0638f7982de3fa8e16af7b6ce051801dcf763bba6a9fbdf949 2146 main/binary-arm64/Packages.gz
+ 4c0eaef61b20e2ec446a6c87c13591eff46fdeffbae2b69c0d648feb913a1fe8 5369 main/binary-arm64/Packages
+ a2249c1f27fda1814acad6bc072e511cd798dc7d4a5a35f40a22edfbeac05cc9 2148 main/binary-arm64/Packages.gz
  e4902726d83277b57caae1d60c540e8ccd408c37b79ff55a36e1c3da21a05702 136 main/binary-arm64/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/source/Sources
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/source/Sources.gz
@@ -67,15 +67,15 @@ SHA256:
  ed74c8fa8499192851b39dc14b181e55f1969b508bb1003707433377bf9cb9bb 140 contrib/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEEzw7wzTSL4JjyeZQXZe3nxwSHOuwFAmk65i0ACgkQZe3nxwSH
-OuysxgwAjERU+c0up/3EUxeZgROjEiswXGSjBfb8UF2MvNBEpVhblc2Ppc86icpA
-U1KhOuYKGlorz0/+GLKTDhmvWrRYFbcZ7KFD91cCsjUV+5/Td2A66C/VBZu95Y0w
-t4uhWlQQL/hS/UWv91Qwr6+cyfxws5XpHubnneLbeJaNVWjKx3WZZoRZV+FlUlG8
-UDHmtyCkOmAk9xXPQxa0dxVR3C3j04CBCsMA3o4LVmtVYUoIKygXhs7qP6+Q9lP5
-44nSowypyyB2RwG/HXsTQVF5YF8gPk1DS7AthJZhV4XbYbHxiMe2Kj/blebs3C/x
-gpc87c8qSDWCxbnGSUdPG3LDdBXbycuQ5diTgiXOF2xGKLvGHwqDSNKELV9q7p4Y
-pM3YCqdyI17aSXG6bN/uBxz9ukTZRiy5Y2HbYgxi3k11Z6dD2BGmGq3jPYheHJSx
-EHCZbNAI5KhrLXrY9Xa1U30FR41id3OnGbkxnvU/fBeD+ZeKhlReEn1S6x7hgeK6
-7rEzbvqh
-=SerS
+iQGzBAEBCgAdFiEEzw7wzTSL4JjyeZQXZe3nxwSHOuwFAmlAn7UACgkQZe3nxwSH
+OuyySQv/YkEGaaa+KMwC/O9fAPKn+0gdu1h84CSy/LlfOaDmh3wLvkB2ZFSHoMNn
+GzSDHklbB8m/FuPimiaxdGbdn/wqRKmjoeOjid5eZT0we2t+4CKOvC2ReA03Sr4J
+kr3nqrTayIr+3GafD6CfkqiIkI2ZRO2n2dKd15kr6wHWiYoUD4i3EgARWJguV0Lr
+jwIAC4U9q5aRfTcoj/gluW5gpG/hSbTJ+vXKM+xheGOm5OOK2lKpFs2gaBWd3+P8
+mM0p78nIcI3NakhiKWcGmIdIrCYriuWOBeCbthTKjNhB3xRjkIzIxUx5Xp474ZBG
+UR7lXsq4v7l5l/zKgjhk0a4rM06knC6S85vF59UAXw5t3bBXwap+Az47bMf12hvC
+DCVrh6pytvWLSMVLDRFqsDLPAaakGG4ER2R9y+vcmH3vtpX1vqJBENncziRpRdrS
+IfmMF6/VSE7YduDE5GbR9lxSmkLRTVpNa0u+Eafn021gFkbdMO53PAxCmxM2TVEU
+0DzwBnyF
+=cay7
 -----END PGP SIGNATURE-----
