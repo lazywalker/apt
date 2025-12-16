@@ -115,7 +115,7 @@ MD5sum: d0114e1641816d2af57dbbfa4d9a4a5d
 Description:  This kernel includes the patches for ClockworkPi CM3/CM4/CM5 devices.
 
 Package: uconsole-sleep
-Version: 0.1.5-1
+Version: 0.1.6-1
 Architecture: arm64
 Homepage: https://github.com/lazywalker/uconsole-sleep
 Maintainer: lazywalker <lazywalkerz@gmail.com>
@@ -123,11 +123,11 @@ Installed-Size: 494
 Depends: libc6:arm64 (>= 2.39)
 Priority: optional
 Section: utils
-Filename: pool/main/u/uconsole-sleep/uconsole-sleep_0.1.5-1_arm64.deb
-Size: 192100
-SHA256: 1e11486d2fedfde59f68d424bc35e428b96211f05e38146c54b24579b8da2fc2
-SHA1: d5d4537915fa2dcdefaa17f3a4c9f2d839311c78
-MD5sum: 9283b1d7e062d805802a06667f7f0c46
+Filename: pool/main/u/uconsole-sleep/uconsole-sleep_0.1.6-1_arm64.deb
+Size: 191632
+SHA256: cd97c1d9f297917e6902187fdb403605d4193611e244833954c8bebacc19cc82
+SHA1: 11e9c73e41c552c3f1776dc38101c804cbb83cfd
+MD5sum: 86d2d36bc39f441b5c5b7f003965688b
 Description: uConsole sleep service 
  Monitor the power key and toggle power-saving mode on short press.
 
