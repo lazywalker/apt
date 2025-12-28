@@ -1,3 +1,20 @@
+Package: lazydns
+Version: 0.2.50-1
+Architecture: amd64
+Homepage: https://github.com/lazywalker/lazydns
+Maintainer: lazywalker <lazywalkerz@gmail.com>
+Installed-Size: 7889
+Depends: libc6 (>= 2.34)
+Priority: optional
+Section: net
+Filename: pool/main/l/lazydns/lazydns_0.2.50-1_amd64.deb
+Size: 2561920
+SHA256: 5c4ad7640c3aa97c4e56de5e283cabdb181d2684ab01838cebc11d4e2a26436b
+SHA1: 9a296f28be14d17d04f475e0a76cb0ccdac83743
+MD5sum: 654be89a640857122ceb856707a6ac2f
+Description: A DNS server/forwarder implementation in Rust, inspired by mosdns
+ A DNS server/forwarder implementation in Rust, inspired by mosdns.
+
 Package: neovim
 Architecture: amd64
 Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.3)
