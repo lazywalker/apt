@@ -1,17 +1,17 @@
 Package: lazydns
-Version: 0.2.60-1
+Version: 0.2.63-1
 Architecture: arm64
 Homepage: https://github.com/lazywalker/lazydns
 Maintainer: lazywalker <lazywalkerz@gmail.com>
-Installed-Size: 5894
+Installed-Size: 5995
 Depends: libc6:arm64 (>= 2.39)
 Priority: optional
 Section: net
-Filename: pool/main/l/lazydns/lazydns_0.2.60-1_arm64.deb
-Size: 2066008
-SHA256: 379678741122fe25c6e461042d652e8346383d880104b8d298ee0508028132ff
-SHA1: 037164d210b398e47f9b54684dd2334ee37bd159
-MD5sum: 14e34ad8827004312de39d08b3dd7bf3
+Filename: pool/main/l/lazydns/lazydns_0.2.63-1_arm64.deb
+Size: 2101172
+SHA256: e7fa04855cbad32e989730a46f6815acc6a6e4aca7c9aaf1b57041950bc38459
+SHA1: 226c58288e9dae229f3ae8a0b8f1e21d383ad99a
+MD5sum: 92f27a5f2774444f314b745de7d1a761
 Description: A light and fast DNS server/forwarder implementation in Rust
  A light and fast DNS server/forwarder implementation in Rust.
 
