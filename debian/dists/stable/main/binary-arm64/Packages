@@ -31,19 +31,19 @@ Version: 0.11.6
 Installed-Size: 34635
 
 Package: rgrc
-Version: 0.6.11-1
+Version: 0.6.12-1
 Architecture: arm64
 Homepage: https://lazywalker.github.io/rgrc
 Maintainer: lazywalker <lazywalkerz@gmail.com>
-Installed-Size: 882
+Installed-Size: 895
 Depends: libc6:arm64 (>= 2.39)
 Priority: optional
 Section: utility
-Filename: pool/main/r/rgrc/rgrc_0.6.11-1_arm64.deb
-Size: 265416
-SHA256: 02a75cbbef40352a4687c00fae9f838fedaf119fd20f02d085bbebc455253b8d
-SHA1: 77c023e038446048f859d406a44851709455b3d9
-MD5sum: 1e7da451aeca9de31244ad2b40e65ec1
+Filename: pool/main/r/rgrc/rgrc_0.6.12-1_arm64.deb
+Size: 267788
+SHA256: 3b41b90806bd7a07a23bad6de7a9f70cbe2a9c8faca350a53ee5c203613d0d52
+SHA1: 9c00e089309bb883512534013dc9649b07a40435
+MD5sum: f91e2c3351da1a2c95c4b07da81a2fc7
 Description: Rusty Generic Colouriser
  A fast, Rust-based command-line tool that colorizes output from other commands
  using grc/grcat-style configuration files. Supports embedded configs, advanced
