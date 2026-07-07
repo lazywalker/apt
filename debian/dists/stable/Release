@@ -1,16 +1,16 @@
 Origin: lazywalker's repo
 Label: my personal packages
 Codename: stable
-Date: Tue, 26 May 2026 00:59:30 UTC
+Date: Tue, 07 Jul 2026 14:00:56 UTC
 Architectures: amd64 arm64
 Components: main contrib
 Description: A simple personal APT repository
 MD5Sum:
- b1eafd0673a49e3ded325959c41141d6 3326 main/binary-amd64/Packages
- 813216d2aa18f9531537ac04c8021a38 1489 main/binary-amd64/Packages.gz
+ 9d58e4bb69e01cc536dbe8ab4668d192 3326 main/binary-amd64/Packages
+ 67a1527c82128e794936fdba6c091ce5 1486 main/binary-amd64/Packages.gz
  2cfa364bffc14de2a2ae45ef0fd27878 136 main/binary-amd64/Release
- 347d2063150e353e5936327af555ac13 5973 main/binary-arm64/Packages
- a7f0808a2c7ab7477f44aeedc4f8ea06 2330 main/binary-arm64/Packages.gz
+ af1a2c938ffe4487f73b77bb6750d857 5973 main/binary-arm64/Packages
+ 1abe62c96c7db82cd939353197728d6f 2328 main/binary-arm64/Packages.gz
  3c9fe8bdab0cdff720dda818aeac0fe0 136 main/binary-arm64/Release
  d41d8cd98f00b204e9800998ecf8427e 0 main/source/Sources
  7029066c27ac6f5ef18d660d5741979a 20 main/source/Sources.gz
@@ -25,11 +25,11 @@ MD5Sum:
  7029066c27ac6f5ef18d660d5741979a 20 contrib/source/Sources.gz
  56c47f7e2206a61c86828bad5f64b750 140 contrib/source/Release
 SHA1:
- 1c903de82dd5128080c389ceb449a8d71f43cd90 3326 main/binary-amd64/Packages
- 07c2167cb1b46f32ade8af5228bd55ca1de06f70 1489 main/binary-amd64/Packages.gz
+ 935364125db28ee48c800699b6ea376cd2bf7bb8 3326 main/binary-amd64/Packages
+ 230b0a9853e1bbe089bd1f2483ed4b7f1b09f794 1486 main/binary-amd64/Packages.gz
  b80b7ff189815fb5d97d27d41cdf81bd206f1112 136 main/binary-amd64/Release
- 7e4b579ef3dc193e0b0de363b861ddd4b85dacfb 5973 main/binary-arm64/Packages
- 7a75988a7c67d8e1c492b16336052ce682743121 2330 main/binary-arm64/Packages.gz
+ 7ad93f82cd3ca4de47c58d7e90f775e4c2f435c0 5973 main/binary-arm64/Packages
+ 6af47be08b42a906fe2c4cfabadf16d23eab5dac 2328 main/binary-arm64/Packages.gz
  0426ef03c3e8ce67c13a14a548e5654feac93ac8 136 main/binary-arm64/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/source/Sources
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/source/Sources.gz
@@ -44,11 +44,11 @@ SHA1:
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 contrib/source/Sources.gz
  0cd7758b7bcb3a74a007315ba854ee62f6b9a7ab 140 contrib/source/Release
 SHA256:
- 1d74f8a3ea403045629ee3d6f808280a9ba0b8e415654d484803f0f71bd8a016 3326 main/binary-amd64/Packages
- 35b55819bdc99febe2382f8c23403ba6bc5749883034f00c89582cc4eeb293bf 1489 main/binary-amd64/Packages.gz
+ e04d0362d1aefc805f86629f2c4c04ae1ea5233c9168789dd05f0b909f7dfe68 3326 main/binary-amd64/Packages
+ 07260cc20bd42f1ccbce7d6952a46552d95898482be70b7e731538148241514a 1486 main/binary-amd64/Packages.gz
  21cee4cad7ccbb294a9607333d9e1566e33119d9693cd343f9e6906d2284ff98 136 main/binary-amd64/Release
- ff7254ed37d9aa9236a8b8b51e55a4b5da51f7a11d0d3753c775c7d83d9361a2 5973 main/binary-arm64/Packages
- 7f95db5857b604b5d35686053eeeedee2984d64b600d7982ad318d1459b572c8 2330 main/binary-arm64/Packages.gz
+ 18309362fb7973ad0ee61def418c7880bcfb9c10a7b4568dbc3aaaca14851b3e 5973 main/binary-arm64/Packages
+ bc98d6f919d3993aa03cc2289ad8b465fcf8788bcf6c153c0f1e3f08ef0d01fb 2328 main/binary-arm64/Packages.gz
  e4902726d83277b57caae1d60c540e8ccd408c37b79ff55a36e1c3da21a05702 136 main/binary-arm64/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/source/Sources
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/source/Sources.gz
