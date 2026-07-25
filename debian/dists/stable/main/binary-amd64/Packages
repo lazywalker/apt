@@ -20,15 +20,15 @@ Architecture: amd64
 Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.3)
 Priority: optional
 Section: devel
-Filename: pool/main/n/neovim/neovim_0.11.6_amd64.deb
-Size: 9910968
-SHA256: 3ed473d5658aeb95897b4c0b5d09060f881e7586e629a3216e94675d448e2783
-SHA1: ceedce23ffe697674fba472f2a9e2f894bee2789
-MD5sum: 9f10f2ac88f39201fea402d2ff80e418
+Filename: pool/main/n/neovim/neovim_0.12.5_amd64.deb
+Size: 11306416
+SHA256: 3fd3dcbc35e2ebf231812ebfad037b0f72bf1afbd3648dbb40c62698318d7752
+SHA1: fedb431ae940753e05fe8e9470f55b33cbd8f9d0
+MD5sum: 7138980362e591f1f2dfa85bef5a84dd
 Description: Vim-fork focused on extensibility and usability.
 Maintainer: Neovim.io
-Version: 0.11.6
-Installed-Size: 32097
+Version: 0.12.5
+Installed-Size: 36126
 
 Package: rgrc
 Version: 0.6.14-1
